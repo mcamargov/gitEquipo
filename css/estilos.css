@@ -1,18 +1,31 @@
-#banner-1 {
-		/*background-image:url(images/overlay.png),url(../images/Banner-4.jpg);*/
-        background-image:url(images/overlay.png),url(../images/Banner-1.jpg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
-        height:700px;
-		padding: 16em 0em 14em;
-		text-align: center;
-	}
+body, html {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #fff;
+}
 
-.wrapper {
-		padding: 2em 0em 4em;
-        border-top: 1px solid rgba(7,13,18,0.1);
-	}
-
-
+header {
+    border: 5px solid black;   
+    margin: 50px auto;
+    width: 90%;
+}
+    header h1 {
+        text-align: center;
+    }
+    
+.wapper{
+    background-color: #d2d2d2;
+    border: 5px solid black;  
+}            
+   .wapper.height-prin{
+       height: 150px; 
+       margin:25px auto;
+       width: 90%; 
+    }
+                
+  .wapper.height-secon{
+        height:300px;
+        margin:25px auto;
+        width: 90%; 
+    }

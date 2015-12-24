@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
     border: 0px;
     margin: 0px;
@@ -22,10 +23,32 @@ header {
        height: 150px; 
        margin:25px auto;
        width: 90%; 
+       background-image: url(/img/android-lollipop1.jpg);
+       background-size: cover;
+       background-position: center;
+       
     }
                 
   .wapper.height-secon{
         height:300px;
         margin:25px auto;
         width: 90%; 
+        padding:10px 10px;
     }
+        .wapper.height-secon h1{
+            text-align: center;
+        }
+        
+        .wapper.height-secon p{
+            text-align: justify;
+        }
+        
+
+=======
+
+table {
+    border: 2;
+}
+
+
+>>>>>>> a9659c6adb9966934e7581913f98bb2756633ff0
